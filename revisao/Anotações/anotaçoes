@@ -1,0 +1,31 @@
+Anotações de Aula - Programação Orientada a Objetos (POO)
+Encapsulamento: Técnica que oculta o estado interno de um objeto e permite o acesso apenas por métodos públicos, garantindo maior segurança e controle sobre os dados.
+
+Construtor: Método especial de uma classe que é executado automaticamente ao criar um objeto. Pode ter sobrecarga (vários construtores com diferentes parâmetros).
+
+public class Cliente {
+    public string Nome { get; set; }
+
+    // Construtor que exige um nome
+    public Cliente(string nome) {
+        this.Nome = nome;
+    }
+
+    // Construtor vazio (opcional)
+    public Cliente() {
+    }
+}
+
+Se um nome for passado, o primeiro construtor será chamado. Caso contrário, o segundo será utilizado.
+
+Debugar: Processo de análise do código, permitindo a execução passo a passo e inserção de breakpoints para encontrar e corrigir erros.
+
+Polimorfismo: Capacidade de um objeto ou método assumir diferentes formas/comportamentos. Exemplo: uma função pode ter várias implementações dependendo do contexto.
+
+
+
+
+
+
+
+
